@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-theme="dark">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Omar Ahmed — Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav id="navbar">
+  <div class="nav-logo">OA</div>
+  <div class="nav-links">
+    <a href="#about" class="nav-item">About</a>
+    <a href="#skills" class="nav-item">Skills</a>
+    <a href="#education" class="nav-item">Education</a>
+    <a href="#experience" class="nav-item">Experience</a>
+    <a href="#featured" class="nav-item">Projects</a>
+    <a href="#contact" class="nav-item nav-contact-btn">Contact</a>
+  </div>
+  <div style="display: flex; align-items: center; gap: 8px;">
+    <button id="theme-btn" class="theme-toggle-btn" aria-label="Toggle Theme">☀️</button>
+    <button class="menu-toggle" id="menu-toggle" aria-label="Toggle Menu">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+  </div>
+</nav>
+
+<div class="mobile-menu-overlay" id="menu-overlay"></div>
+<div class="mobile-menu" id="mobile-menu">
+  <a href="#about" class="mobile-nav-item">About</a>
+  <a href="#skills" class="mobile-nav-item">Skills</a>
+  <a href="#education" class="mobile-nav-item">Education</a>
+  <a href="#experience" class="mobile-nav-item">Experience</a>
+  <a href="#featured" class="mobile-nav-item">Projects</a>
+  <a href="#contact" class="mobile-nav-item" style="color: var(--primary);">Contact</a>
+</div>
+
+<div class="hero">
+  <div class="hero-glow"></div>
+  <div class="hero-glow2"></div>
+
+  <div class="hero-inner">
+    <div class="hero-content">
+      <h1 class="fade-up" style="transition-delay:.1s">
+        <span class="grad-text">Omar Ahmed Hamdy Tawfiq</span>
+      </h1>
+
+      <div class="hero-typing fade-up" style="transition-delay:.28s">
+        <span id="typing-text"></span><span class="cursor">|</span>
+      </div>
+
+      <div class="hero-links fade-up" style="transition-delay:.4s">
+        <a class="hero-link hero-link-cv" href="Omar_Ahmed_Hamdy_CV.pdf" target="_blank" download>
+          <span class="hero-link-icon"><i class="fa-solid fa-file-arrow-down"></i></span>
+          Download CV
+        </a>
+        <a class="hero-link hero-link-wa" href="https://wa.me/201279221693" target="_blank">
+          <span class="hero-link-icon"><i class="fa-brands fa-whatsapp"></i></span>
+          WhatsApp
+        </a>
+        <a class="hero-link" href="https://www.linkedin.com/in/omarahmedh36" target="_blank">
+          <span class="hero-link-icon"><i class="fa-brands fa-linkedin-in"></i></span>
+          LinkedIn
+        </a>
+        <a class="hero-link" href="https://github.com/omarahmedh36" target="_blank">
+          <span class="hero-link-icon"><i class="fa-brands fa-github"></i></span>
+          GitHub
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-photo-col fade-up" style="transition-delay:.05s">
+      <div class="photo-float">
+        <div class="photo-wrap">
+          <div class="photo-glow-dot"></div>
+          <div class="photo-frame">
+            <img src="5825824465458237206.jpg" alt="Omar Ahmed">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div style="padding: 0 24px; max-width: 900px; margin: 0 auto;">
+  <div class="stats fade-up">
+    <div class="stat">
+      <div class="stat-num" data-count="3">0</div>
+      <div class="stat-label">Academic Projects</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num" data-count="10">0</div>
+      <div class="stat-label">Technologies Learned</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num" data-count="5">0</div>
+      <div class="stat-label">Courses Completed</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num" data-count="100" data-suffix="%">0</div>
+      <div class="stat-label">Passion For Learning</div>
+    </div>
+  </div>
+</div>
+
+<div style="height: 80px;"></div>
+<div class="divider"></div>
+
+<section id="about">
+  <div class="section-label">Introduction</div>
+  <h2 class="section-title fade-up">About Me</h2>
+
+  <div class="about-wrap">
+    <div class="about-text">
+      <p class="section-sub fade-up" style="max-width:760px; margin-bottom:0;">
+       My journey in tech started with a simple realization: to build truly great software , you first have to understand how it breaks. As a Computer Science and Artificial Intelligence Student , I didn't want to just follow a traditional path; I chose to intentionally bridge two worlds that belong together — Full Stack .NET Development and Cybersecurity.
+       <br><br>
+       Day by day , I immerse myself in architecting scalable , high-performance web applications using C# , ASP.NET Core , and SQL Server , while sharpening my logic and data structures through competitive programming. But what sets my approach apart is running this in parallel with exploring penetration testing and ethical hacking.
+       <br><br>
+       By looking at code through both a developer's eyes and a security mindset , I don't just write functions — I engineer secure architectures from the ground up. For me , every line of code is a step toward turning complex technical challenges into robust , production-ready systems that are built to last.
+      </p>
+    </div>
+    <div class="about-photo-col fade-up" style="transition-delay:.1s">
+      <div class="photo-float">
+        <div class="photo-wrap">
+          <div class="photo-glow-dot"></div>
+          <div class="photo-frame">
+            <img src="5825824465458237220.jpg" alt="Omar Ahmed">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<section id="skills">
+  <div class="section-label">Toolbox</div>
+  <h2 class="section-title fade-up">Skills &amp; Expertise</h2>
+  <p class="section-sub fade-up">Technologies, tools, and core engineering concepts I work with.</p>
+
+  <div class="skills-wrapper">
+    <div class="skill-group-card fade-up">
+      <div class="skill-header">
+        <div class="skill-icon-box"><i class="fa-solid fa-code"></i></div>
+        <div class="skill-group-title">Programming Languages</div>
+      </div>
+      <div class="skill-chips-list">
+        <span class="skill-badge"><i class="fa-solid fa-chevron-right" style="font-size: 10px; color: var(--primary);"></i> C#</span>
+        <span class="skill-badge"><i class="fa-solid fa-chevron-right" style="font-size: 10px; color: var(--primary);"></i> C++</span>
+        <span class="skill-badge"><i class="fa-solid fa-chevron-right" style="font-size: 10px; color: var(--primary);"></i> Python</span>
+        <span class="skill-badge"><i class="fa-solid fa-chevron-right" style="font-size: 10px; color: var(--primary);"></i> Java</span>
+      </div>
+    </div>
+
+    <div class="skill-group-card fade-up">
+      <div class="skill-header">
+        <div class="skill-icon-box"><i class="fa-solid fa-brain"></i></div>
+        <div class="skill-group-title">Core Concepts &amp; Engineering</div>
+      </div>
+      <div class="skill-chips-list">
+        <span class="skill-badge"><i class="fa-solid fa-chevron-right" style="font-size: 10px; color: var(--primary);"></i> OOP</span>
+        <span class="skill-badge"><i class="fa-solid fa-chevron-right" style="font-size: 10px; color: var(--primary);"></i> DSA</span>
+        <span class="skill-badge"><i class="fa-solid fa-chevron-right" style="font-size: 10px; color: var(--primary);"></i> SOLID</span>
+        <span class="skill-badge"><i class="fa-solid fa-chevron-right" style="font-size: 10px; color: var(--primary);"></i> SDLC</span>
+      </div>
+    </div>
+
+    <div class="skill-group-card fade-up">
+      <div class="skill-header">
+        <div class="skill-icon-box"><i class="fa-solid fa-globe"></i></div>
+        <div class="skill-group-title">Web Development</div>
+      </div>
+      <div class="skill-chips-list">
+        <span class="skill-badge"><i class="fa-solid fa-chevron-right" style="font-size: 10px; color: var(--primary);"></i> HTML</span>
+        <span class="skill-badge"><i class="fa-solid fa-chevron-right" style="font-size: 10px; color: var(--primary);"></i> CSS</span>
+        <span class="skill-badge"><i class="fa-solid fa-chevron-right" style="font-size: 10px; color: var(--primary);"></i> JavaScript</span>
+        <span class="skill-badge"><i class="fa-solid fa-chevron-right" style="font-size: 10px; color: var(--primary);"></i> ASP.NET Core</span>
+      </div>
+    </div>
+
+    <div class="skill-group-card fade-up">
+      <div class="skill-header">
+        <div class="skill-icon-box"><i class="fa-solid fa-database"></i></div>
+        <div class="skill-group-title">Database</div>
+      </div>
+      <div class="skill-chips-list">
+        <span class="skill-badge"><i class="fa-solid fa-chevron-right" style="font-size: 10px; color: var(--primary);"></i> SQL Server</span>
+        <span class="skill-badge"><i class="fa-solid fa-chevron-right" style="font-size: 10px; color: var(--primary);"></i> MySQL</span>
+      </div>
+    </div>
+
+    <div class="skill-group-card fade-up">
+      <div class="skill-header">
+        <div class="skill-icon-box"><i class="fa-solid fa-shield-halved"></i></div>
+        <div class="skill-group-title">Cybersecurity</div>
+      </div>
+      <div class="skill-chips-list">
+        <span class="skill-badge"><i class="fa-solid fa-chevron-right" style="font-size: 10px; color: var(--primary);"></i> CCNA</span>
+        <span class="skill-badge"><i class="fa-solid fa-chevron-right" style="font-size: 10px; color: var(--primary);"></i> MCSA</span>
+        <span class="skill-badge"><i class="fa-solid fa-chevron-right" style="font-size: 10px; color: var(--primary);"></i> Kali Linux</span>
+        <span class="skill-badge"><i class="fa-solid fa-chevron-right" style="font-size: 10px; color: var(--primary);"></i> Nmap</span>
+        <span class="skill-badge"><i class="fa-solid fa-chevron-right" style="font-size: 10px; color: var(--primary);"></i> Web Security</span>
+      </div>
+    </div>
+
+    <div class="skill-group-card fade-up">
+      <div class="skill-header">
+        <div class="skill-icon-box"><i class="fa-solid fa-toolbox"></i></div>
+        <div class="skill-group-title">Tools</div>
+      </div>
+      <div class="skill-chips-list">
+        <span class="skill-badge"><i class="fa-solid fa-chevron-right" style="font-size: 10px; color: var(--primary);"></i> Git</span>
+        <span class="skill-badge"><i class="fa-solid fa-chevron-right" style="font-size: 10px; color: var(--primary);"></i> GitHub</span>
+        <span class="skill-badge"><i class="fa-solid fa-chevron-right" style="font-size: 10px; color: var(--primary);"></i> Visual Studio</span>
+        <span class="skill-badge"><i class="fa-solid fa-chevron-right" style="font-size: 10px; color: var(--primary);"></i> VS Code</span>
+        <span class="skill-badge"><i class="fa-solid fa-chevron-right" style="font-size: 10px; color: var(--primary);"></i> Cisco Packet Tracer</span>
+        <span class="skill-badge"><i class="fa-solid fa-chevron-right" style="font-size: 10px; color: var(--primary);"></i> Gen3</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<section id="education">
+  <div class="section-label">Academics</div>
+  <h2 class="section-title fade-up">Education</h2>
+
+  <div class="featured-card fade-up" style="max-width:600px;">
+    <div class="card-glow"></div>
+    <div class="card-header-info">
+      <div class="card-name">Faculty of Computers and Artificial Intelligence</div>
+      <div class="domain-chip">Computer Science Student</div>
+      <div class="company-name" style="margin-top:8px;"> Expected Graduation: 2028</div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<section id="experience">
+  <div class="section-label">Journey</div>
+  <h2 class="section-title fade-up">Experience &amp; Training</h2>
+  <p class="section-sub fade-up">Internships, training programs, and continuous self-learning.</p>
+
+  <div class="exp-grid">
+    <div class="exp-card fade-up">
+      <div>
+        <div class="exp-top">
+          <span class="exp-tag">Remote Work</span>
+          <div class="exp-icon"><i class="fa-solid fa-briefcase"></i></div>
+        </div>
+        <h3 class="exp-title">Guidely</h3>
+        <p class="exp-desc">Prepared and structured educational content and learning materials for students over a 3-month period.</p>
+      </div>
+    </div>
+
+    <div class="exp-card fade-up">
+      <div>
+        <div class="exp-top">
+          <span class="exp-tag">Remote Work</span>
+          <div class="exp-icon"><i class="fa-solid fa-school"></i></div>
+        </div>
+        <h3 class="exp-title">New Smart Semi International School</h3>
+        <p class="exp-desc">Handled educational material preparation and conducted data analysis tasks over a 6-month period to support academic operations.</p>
+      </div>
+    </div>
+
+    <div class="exp-card fade-up">
+      <div>
+        <div class="exp-top">
+          <span class="exp-tag">Training Program</span>
+          <div class="exp-icon"><i class="fa-solid fa-laptop-code"></i></div>
+        </div>
+        <h3 class="exp-title">DEPI Full Stack .NET Trainee</h3>
+        <p class="exp-desc">Training program covering the full .NET development stack, from backend fundamentals to building complete applications.</p>
+      </div>
+    </div>
+
+    <div class="exp-card fade-up">
+      <div>
+        <div class="exp-top">
+          <span class="exp-tag">Training Program</span>
+          <div class="exp-icon"><i class="fa-solid fa-network-wired"></i></div>
+        </div>
+        <h3 class="exp-title">NTI Network Infrastructure Trainee</h3>
+        <p class="exp-desc">Completed an intensive summer training program in Network Infrastructure, earning Cisco Networking Academy module certificates.</p>
+      </div>
+    </div>
+
+    <div class="exp-card fade-up">
+      <div>
+        <div class="exp-top">
+          <span class="exp-tag">Self-Learning</span>
+          <div class="exp-icon"><i class="fa-solid fa-book-open-reader"></i></div>
+        </div>
+        <h3 class="exp-title">Personal Learning Journey</h3>
+        <p class="exp-desc">Continuously learning through online courses, documentation, and hands-on practice in .NET development and cybersecurity.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<section id="featured">
+  <div class="section-label">In Progress</div>
+  <h2 class="section-title fade-up">Academic &amp; Personal Projects</h2>
+  <p class="section-sub fade-up">Projects Coming Soon.</p>
+
+  <div class="proto-card fade-up" style="max-width:700px; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 24px;">
+    <p style="margin-bottom:0; color: var(--muted);">Currently building my skills in Full Stack .NET Development, Databases, and Cybersecurity. Personal and academic projects will be added soon.</p>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<section id="contact">
+  <div class="section-label"><i class="fa-solid fa-envelope"></i> Get In Touch</div>
+  <h2 class="section-title fade-up">Let's Work Together</h2>
+  <p class="section-sub fade-up">Open to internships, training opportunities, and entry-level roles in .NET development and cybersecurity.</p>
+
+  <div class="contact-wrap">
+    <div class="contact-cards fade-up">
+      <a class="contact-card" href="mailto:omarahmedh36@gmail.com">
+        <div class="contact-card-icon"><i class="fa-solid fa-envelope"></i></div>
+        <div class="contact-card-label">Email</div>
+        <div class="contact-card-value">omarahmedh36@gmail.com</div>
+      </a>
+
+      <a class="contact-card" href="https://www.linkedin.com/in/omarahmedh36" target="_blank">
+        <div class="contact-card-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+        <div class="contact-card-label">LinkedIn</div>
+        <div class="contact-card-value">Omar Ahmed Hamdy</div>
+      </a>
+
+      <a class="contact-card" href="tel:+201279221693">
+        <div class="contact-card-icon"><i class="fa-solid fa-phone"></i></div>
+        <div class="contact-card-label">Phone</div>
+        <div class="contact-card-value">+201279221693</div>
+      </a>
+
+      <a class="contact-card" href="https://wa.me/201279221693" target="_blank">
+        <div class="contact-card-icon"><i class="fa-brands fa-whatsapp"></i></div>
+        <div class="contact-card-label">WhatsApp</div>
+        <div class="contact-card-value">+201279221693</div>
+      </a>
+
+      <a class="contact-card" href="https://github.com/omarahmedh36" target="_blank">
+        <div class="contact-card-icon"><i class="fa-brands fa-github"></i></div>
+        <div class="contact-card-label">GitHub</div>
+        <div class="contact-card-value">Omar Ahmed Hamdy</div>
+      </a>
+    </div>
+
+    <div class="hire-form-card fade-up">
+      <div class="hire-form-badge">Hire Me</div>
+      <div class="hire-form-title">Send me a message</div>
+      <div class="hire-form-sub">Fill in the form and I'll get back to you within 24 hours.</div>
+
+      <form id="hire-form" novalidate>
+        <div class="form-field">
+          <label for="hm-name">Full Name *</label>
+          <input type="text" id="hm-name" placeholder="Your name" />
+          <div class="form-error" id="err-name">This field is required.</div>
+        </div>
+        <div class="form-field">
+          <label for="hm-company">Company <span style="color:var(--muted);font-weight:400">(optional)</span></label>
+          <input type="text" id="hm-company" placeholder="Your company or organization" />
+        </div>
+        <div class="form-field">
+          <label for="hm-email">Email Address *</label>
+          <input type="email" id="hm-email" placeholder="your@email.com" />
+          <div class="form-error" id="err-email">Please enter a valid email address.</div>
+        </div>
+        <div class="form-field">
+          <label for="hm-message">Message *</label>
+          <textarea id="hm-message" rows="6" placeholder="Tell me about the role or project..."></textarea>
+          <div class="form-error" id="err-message">This field is required.</div>
+        </div>
+        <button type="submit" class="send-btn" id="send-btn">
+          <i class="fa-solid fa-paper-plane"></i>
+          <span id="send-label">Send Message</span>
+        </button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <p>&copy; 2026 <span>Omar Ahmed</span>. All rights reserved.</p>
+</footer>
+
+<div class="toast" id="toast"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
