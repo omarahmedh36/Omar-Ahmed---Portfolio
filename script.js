@@ -248,3 +248,38 @@ function initTiltCards(selector, options = {}) {
 
 initTiltCards('.skill-group-card, .exp-card, .contact-card, .featured-card', { maxTilt: 8, lift: 10 });
 initTiltCards('.photo-wrap', { maxTilt: 12, lift: 20, withGlow: false });
+
+// ══ Preloader ══
+(function () {
+  const preloader  = document.getElementById('preloader');
+  const fillEl      = document.getElementById('preloader-fill');
+  const percentEl   = document.getElementById('preloader-percent');
+  if (!preloader || !fillEl || !percentEl) return;
+
+  const duration = 2500; // ms — مدة عرض شاشة التحميل
+  const start = performance.now();
+  let pageLoaded = document.readyState === 'complete';
+  window.addEventListener('load', () => { pageLoaded = true; });
+
+  function frame(now) {
+    const elapsed = now - start;
+    let progress = Math.min(elapsed / duration, 1);
+
+    // لو الوقت خلص بس الموقع لسه بيحمل فعليًا، تقف عند 99% لحد ما يخلص
+    if (progress >= 1 && !pageLoaded) progress = 0.99;
+
+    const percent = Math.floor(progress * 100);
+    fillEl.style.width = percent + '%';
+    percentEl.textContent = percent + '%';
+
+    if (progress < 1 || !pageLoaded) {
+      requestAnimationFrame(frame);
+    } else {
+      fillEl.style.width = '100%';
+      percentEl.textContent = '100%';
+      setTimeout(() => preloader.classList.add('loaded'), 350);
+    }
+  }
+
+  requestAnimationFrame(frame);
+})();
