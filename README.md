@@ -1,15 +1,15 @@
-# 🚀 Personal Portfolio Website
+#  Personal Portfolio Website
 
 Welcome to my personal portfolio repository! This project showcases my skills, projects, and background as a Computer Science student and Full Stack .NET developer.
 
 ---
 
-### 🌐 Live Demo
+###  Live Demo
 You can check out the live version of the portfolio here: *(حط لينك الموقع هنا لو رافعه على GitHub Pages أو Netlify)*
 
 ---
 
-### ✨ Features
+###  Features
 - **Modern & Clean UI:** Designed with a responsive and organized layout.
 - **Modular Structure:** Separated into dedicated HTML, CSS, and JavaScript files for clean maintenance.
 - **Interactive Navbar:** Highlighted "Contact" section and smooth navigation.
@@ -17,7 +17,7 @@ You can check out the live version of the portfolio here: *(حط لينك الم
 
 ---
 
-### 🛠️ Technologies Used
+###  Technologies Used
 - **HTML5** – For structuring the web pages.
 - **CSS3** – For styling, layout, and responsive design.
 - **JavaScript (ES6+)** – For interactive elements and functionality.
@@ -25,7 +25,7 @@ You can check out the live version of the portfolio here: *(حط لينك الم
 
 ---
 
-### 📂 Project Structure
+###  Project Structure
 ```text
 my-portfolio/
 │
