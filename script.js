@@ -92,7 +92,7 @@ window.addEventListener('scroll', () => {
 
 const EMAILJS_SERVICE_ID  = 'service_3zbbpzc';
 const EMAILJS_TEMPLATE_ID = 'template_bjfc6v8';
-const EMAILJS_PUBLIC_KEY  = 'ogrxhBbvhZVWdVWH0';
+const EMAILJS_PUBLIC_KEY  = 'A8K5tGUvx_V2g73KW';
 
 emailjs.init({ publicKey: EMAILJS_PUBLIC_KEY });
 
