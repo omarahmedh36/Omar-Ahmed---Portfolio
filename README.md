@@ -5,7 +5,7 @@ Welcome to my personal portfolio repository! This project showcases my skills, p
 ---
 
 ###  Live Demo
-You can check out the live version of the portfolio here: *(حط لينك الموقع هنا لو رافعه على GitHub Pages أو Netlify)*
+You can check out the live version of the portfolio here: https://omarahmedh36.github.io/Omar-Ahmed---Portfolio/
 
 ---
 
